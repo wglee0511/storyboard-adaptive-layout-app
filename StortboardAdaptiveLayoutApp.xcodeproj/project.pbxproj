@@ -13,6 +13,8 @@
 		E439E20D2C1723D500AEB133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E439E20B2C1723D500AEB133 /* Main.storyboard */; };
 		E439E20F2C1723D600AEB133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E439E20E2C1723D600AEB133 /* Assets.xcassets */; };
 		E439E2122C1723D600AEB133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E439E2102C1723D600AEB133 /* LaunchScreen.storyboard */; };
+		E439E21B2C17314600AEB133 /* TraitListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E439E21A2C17314600AEB133 /* TraitListViewController.swift */; };
+		E439E21E2C1732F100AEB133 /* tableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E439E21D2C1732F100AEB133 /* tableViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		E439E2112C1723D600AEB133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E439E2132C1723D600AEB133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E439E2192C17242D00AEB133 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E439E21A2C17314600AEB133 /* TraitListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraitListViewController.swift; sourceTree = "<group>"; };
+		E439E21D2C1732F100AEB133 /* tableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,7 @@
 		E439E1F92C1723D500AEB133 = {
 			isa = PBXGroup;
 			children = (
+				E439E21C2C1732D000AEB133 /* model */,
 				E439E2192C17242D00AEB133 /* README.md */,
 				E439E2042C1723D500AEB133 /* StortboardAdaptiveLayoutApp */,
 				E439E2032C1723D500AEB133 /* Products */,
@@ -65,8 +70,17 @@
 				E439E20E2C1723D600AEB133 /* Assets.xcassets */,
 				E439E2102C1723D600AEB133 /* LaunchScreen.storyboard */,
 				E439E2132C1723D600AEB133 /* Info.plist */,
+				E439E21A2C17314600AEB133 /* TraitListViewController.swift */,
 			);
 			path = StortboardAdaptiveLayoutApp;
+			sourceTree = "<group>";
+		};
+		E439E21C2C1732D000AEB133 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E439E21D2C1732F100AEB133 /* tableViewModel.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E439E20A2C1723D500AEB133 /* ViewController.swift in Sources */,
+				E439E21E2C1732F100AEB133 /* tableViewModel.swift in Sources */,
 				E439E2062C1723D500AEB133 /* AppDelegate.swift in Sources */,
 				E439E2082C1723D500AEB133 /* SceneDelegate.swift in Sources */,
+				E439E21B2C17314600AEB133 /* TraitListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
