@@ -24,6 +24,7 @@
 		E439E20E2C1723D600AEB133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E439E2112C1723D600AEB133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E439E2132C1723D600AEB133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E439E2192C17242D00AEB133 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		E439E1F92C1723D500AEB133 = {
 			isa = PBXGroup;
 			children = (
+				E439E2192C17242D00AEB133 /* README.md */,
 				E439E2042C1723D500AEB133 /* StortboardAdaptiveLayoutApp */,
 				E439E2032C1723D500AEB133 /* Products */,
 			);
